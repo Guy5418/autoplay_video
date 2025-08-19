@@ -1,0 +1,19 @@
+name: autoplay_video
+description: Autoplay video for feeds (IG/FB) with single-playing exclusivity and Tap to unmute.
+version: 0.1.2
+homepage: https://github.com/Guy5418/autoplay_video
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: false
